@@ -1,0 +1,11 @@
+{
+  "name": "ham-club-site-final",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./dist/output.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.0"
+  }
+}
